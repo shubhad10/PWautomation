@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "array.js",
-  "scripts": {},
+  "scripts": {
+    "fullTest":"npx playwright test",
+    "smokeTest": "npx playwright test -g @smoke",
+    " regressionTest":"npx playwright test -g @regression"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
