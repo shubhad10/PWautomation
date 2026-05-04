@@ -6,7 +6,7 @@
   "scripts": {
     "fullTest":"npx playwright test",
     "smokeTest": "npx playwright test -g @smoke",
-    " regressionTest":"npx playwright test -g @regression"
+    "regressionTest":"npx playwright test -g @regression"
   },
   "keywords": [],
   "author": "",
