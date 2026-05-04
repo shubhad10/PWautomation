@@ -6,7 +6,7 @@ let username="shubhangi.dudhani@gmail.com"
 let password="Shubha123"
 let incorrectpassword="Test"
 
-test("check the login credentials working",async({page})=>{
+test("check the login credentials working",{tag:'@regression'},async({page})=>{
 //const login=new LoginPage(Page)
 const login =new LoginPage(page)
 await login.launchURLl(url)
